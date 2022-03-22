@@ -1,5 +1,35 @@
+colors{
+    color:#eeeeed;
+    color:#dddddc;
+    color:#cccccb;
+    color:#bbbbba;
+    color:#aaaaaf;
+}
 h1{
-    color:red;
+    color:grey;
+}
+body{
+    background-color:aliceblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+button{
+    flex-grow:1;
+    padding:0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid black;
+    border-radius:5px;
+}
+.btn-sqr{
+    min-width:80px;
+    min-height:80px;
+    margin :5px;
 }
 
 .page{
@@ -7,4 +37,80 @@ h1{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height:650px;
+    background-color:#cccccb ;
+    border-radius: 5px;
+    border: solid black;
+    
+    
+}
+/* output field */
+.output-field{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin:5px;
+    padding:10px 40px;
+    background-color: #aaaaaf;
+    padding:20px;
+    border:solid black;
+    border-radius: 5px;
+}
+#p-display-top{
+    background-color: #dddddc;
+    border: solid black;
+    padding:8px;
+    width:400px;
+    text-align:right;
+    
+}
+#in-display-bottom{
+    background-color: #eeeeed;
+    text-align: right;
+    border: solid black;
+    width:400px;
+    font-size: 40px;
+}
+
+.all-btn{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width:400px;
+    flex-grow: 1;
+}
+
+/* row 1 */
+
+.row-1{
+    display: flex;
+    margin:0px;
+    padding:10px;
+}
+#btn-clear{
+    padding:10px;
+    margin-right:8px;
+}
+#btn-delete{
+    padding: 10px;
+    margin:0px;
+}
+.row-2{
+    display: flex;
+    
+}
+.row-3{
+    display: flex;
+    
+}
+.row-4{
+    display: flex;
+    
+}
+.row-5{
+    display: flex;
+    
 }
